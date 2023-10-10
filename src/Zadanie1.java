@@ -15,7 +15,7 @@ public static final String fileName = "fibonacci100.txt";
 
  BufferedWriter writer
  = new BufferedWriter(new FileWriter(fileName));
- for(int i=0; i<100; i++)
+ for(int i=0; i<=100; i++)
  writer.write(Fibonacci(i).toString() + "\n");
  writer.close();
 
